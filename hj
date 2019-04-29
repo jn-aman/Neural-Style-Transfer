@@ -1,0 +1,58 @@
+Last login: Sun Apr 14 10:33:18 on ttys003
+Amans-MacBook-Pro:~ amanjain$ cd de
+-bash: cd: de: No such file or directory
+Amans-MacBook-Pro:~ amanjain$ cd desktop
+Amans-MacBook-Pro:desktop amanjain$ python neural_style_transfer.py /Users/amanjain/Desktop/dancing.jpg /Users/amanjain/Desktop/picasso.jpg  sm/mysre
+/Users/amanjain/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+Downloading data from https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vgg19_weights_tf_dim_ordering_tf_kernels_notop.h5
+80142336/80134624 [==============================] - 165s 2us/step
+2019-04-14 10:47:38.584366: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+Model loaded.
+WARNING: Logging before flag parsing goes to stderr.
+W0414 10:47:39.116765 4381394368 variables.py:2262] Variable += will be deprecated. Use variable.assign_add if you want assignment to the variable value or 'x = x + y' if you want a new python Tensor object.
+Start of iteration 0
+Current loss value: 617964900.0
+Image saved as sm/mysre_at_iteration_0.png
+Iteration 0 completed in 223s
+Start of iteration 1
+Current loss value: 414113200.0
+Image saved as sm/mysre_at_iteration_1.png
+Iteration 1 completed in 211s
+Start of iteration 2
+Current loss value: 336519230.0
+Image saved as sm/mysre_at_iteration_2.png
+Iteration 2 completed in 212s
+Start of iteration 3
+Current loss value: 295592260.0
+Image saved as sm/mysre_at_iteration_3.png
+Iteration 3 completed in 211s
+Start of iteration 4
+Current loss value: 266281090.0
+Image saved as sm/mysre_at_iteration_4.png
+Iteration 4 completed in 210s
+Start of iteration 5
+Current loss value: 245776200.0
+Image saved as sm/mysre_at_iteration_5.png
+Iteration 5 completed in 210s
+Start of iteration 6
+Current loss value: 231877620.0
+Image saved as sm/mysre_at_iteration_6.png
+Iteration 6 completed in 214s
+Start of iteration 7
+Current loss value: 222177500.0
+Image saved as sm/mysre_at_iteration_7.png
+Iteration 7 completed in 211s
+Start of iteration 8
+Current loss value: 211600600.0
+Image saved as sm/mysre_at_iteration_8.png
+Iteration 8 completed in 212s
+Start of iteration 9
+Current loss value: 203198500.0
+Image saved as sm/mysre_at_iteration_9.png
+Iteration 9 completed in 215s
+Amans-MacBook-Pro:desktop amanjain$ 
+  [Restored 15-Apr-2019 at 7:58:14 AM]
+Last login: Mon Apr 15 07:58:14 on ttys000
+Amans-MacBook-Pro:desktop amanjain$ 
